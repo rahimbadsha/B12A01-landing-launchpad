@@ -74,10 +74,13 @@ nav{
 .banner-content{
     text-align: center;
     padding: 100px 0px 150px 0px;
+    width: 960px;
 }
 .banner-title{
     font-size: 65px;
+    line-height: 1.2;
     color: #252432;
+    margin-bottom: 15px;
 }
 
 
@@ -218,11 +221,14 @@ padding: 0px;
     padding: 0px;
 }
 
+/* form section */
+
 .form{
     font-family: "Inter", sans-serif;
     display: flex;
     align-content: space-between;
     align-items: center;
+    padding: 50px 0px 100px 0px;
 }
 
 .form-column{
@@ -263,3 +269,46 @@ main textarea{
 {
     width: 100%;
 }
+
+
+/* footer-css */
+footer{
+   /* margin: 0 auto; */
+    background-color: #fff;
+}
+.footer-container{
+    width: 530px;
+    padding: 100px 0px 100px 0px;
+    margin: 0 auto;
+}
+
+
+.footer-text p{
+    font-size: 16px;
+    color: #8987A1;
+    font-family: "Inter", sans-serif;
+    margin: 10px 0px 10px 0px;
+}
+.footer-text{
+    text-align: center;
+}
+.footer-container ul{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    gap: 30px;
+    align-content: space-around;
+    align-content: baseline;
+}
+
+.footer-container li{
+    list-style: none;
+    margin: 0 auto;
+}
+
+
+.footer-container li a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+} 
+
