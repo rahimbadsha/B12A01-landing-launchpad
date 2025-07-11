@@ -214,6 +214,52 @@ padding: 0px;
 
 .testimonial-designation p{
     font-size: 16px;
-    coluor: #B3B3B3;
+    color: #B3B3B3;
     padding: 0px;
+}
+
+.form{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+}
+
+.form-column{
+    width: 50%;
+}
+.form-column h2{
+    font-size: 97px;
+    line-height: 1;
+    color: black;
+}
+.form-input label{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+input::placeholder,
+textarea::placeholder {
+    color:rgba(0, 0, 0, 0.5);   
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+  }
+.form-input input[type=text], main input[type=email], main textarea{
+    background-color: white;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    display: block;
+    width: 88%;
+    height: 30px;
+    padding: 20px 32px;
+    margin-top: 10px;
+}
+main textarea{
+    height: auto;
+}
+
+
+.btn-primary[type=submit]
+{
+    width: 100%;
 }
