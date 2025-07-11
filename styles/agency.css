@@ -49,6 +49,11 @@ main{
     border-radius: 10px;
 
 }
+.btn-primary:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: all 0.3s ease-in;
+}
 .alignment-right{text-align: right;}
 .alignment-center{text-align: center;}
 /* Hero Section CSS */
